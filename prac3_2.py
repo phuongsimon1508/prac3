@@ -1,7 +1,12 @@
 def main():
     asciinum = get_number(50,100)
     print("The character with the ASCII value")
+    get_name= input("please enter your name")
+    method_name(get_name)
 
+
+def method_name(get_name):
+    print(get_name)
 
 
 def get_number(minValue, maxValue):
